@@ -8,7 +8,7 @@ public class FizzBuzz {
     public String processNumber(int number) {
         if (number % 3 == 0) { // if number is divisble by 3, remainder will be 0
             return "Fizz";
-        } else if (number == 5) {
+        } else if (number % 5 == 0) { // if number if divisible by 5, remainder will be 0
             return "Buzz";
         } else {
             return Integer.toString(number);
